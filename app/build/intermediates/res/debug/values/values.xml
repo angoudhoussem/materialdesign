@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Houssem/Desktop/MatrialDesign/android-butterknife-zelezny-master/TapCounter/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="gray">#7F7F7F</color>
+    <color name="header">#FFCF1C</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/C:/Users/Houssem/Desktop/MatrialDesign/android-butterknife-zelezny-master/TapCounter/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Tap Counter</string>
+    <string name="click">Click</string>
+    <string name="click_summary">Play click sound on count</string>
+    <string name="counter_label_hint">Label Counter</string>
+    <string name="decrement">Decrement</string>
+    <string name="delete">Delete</string>
+    <string name="increment">Increment</string>
+    <string name="load">Load</string>
+    <string name="locked">Locked</string>
+    <string name="minus">MINUS</string>
+    <string name="plus">PLUS</string>
+    <string name="select">Select</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="vibrate_summary">Vibrate on click</string>
+    <string name="voice">Voice</string>
+    <string name="voice_interval">Voice Interval</string>
+    <string name="voice_interval_summary">Interval for the voice to count</string>
+    <string name="voice_summary">Speak the counts</string>
+    <string name="volume">Volume</string>
+    <string name="volume_summary">Volume of clicks</string>
+    <!-- From: file:/C:/Users/Houssem/Desktop/MatrialDesign/android-butterknife-zelezny-master/TapCounter/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="LockButton" parent="@android:style/Widget.Button.Toggle">
+		<item name="android:background">@drawable/btn_lock_bg</item>
+        <item name="android:textOn"/>
+        <item name="android:textOff"/>
+	</style>
+    <style name="TapText" parent="android:Widget.TextView">
+		<item name="android:textSize">36sp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+    <style name="TapTheme" parent="android:Theme.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:typeface">sans</item>
+	</style>
+</resources>
